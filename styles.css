@@ -1,0 +1,59 @@
+table
+{
+    width: 90%;
+    margin: auto;
+    border-spacing: 3px;
+}
+
+caption
+{
+    font-size: 2.5em;
+    background-color: rgba(233, 150, 122, 0.9);
+    color: rgba(139, 0, 0, 0.9);
+    border-radius: 15px;
+    box-shadow: lightgray 9px 12px;
+    width: 60%;
+    margin: 0.5cm auto 1em;
+}
+
+caption:hover
+{
+    color: darkred;
+    background-color: yellow;
+}
+
+thead
+{
+    background-color: lightgreen;
+    color: darkslategray;
+    empty-cells: hide;
+}
+
+tbody
+{
+    background-color: wheat;
+    color: brown;
+}
+
+tfoot
+{
+    background-color: lightskyblue;
+    color: blue;
+    empty-cells: hide;
+}
+
+th
+{
+    font-weight: bolder;
+    width: 11%;
+    height: 1.6em;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+td
+{
+    height: 1cm;
+    text-align: center;
+    font-style: italic;
+}
